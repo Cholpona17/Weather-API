@@ -1,0 +1,129 @@
+#map {
+    width: 510px;
+    height: 500px;
+    border-radius: 20px;
+    margin-left: 10%;
+    box-shadow: blue;
+}
+
+body {
+    background: url(../img/5566087.jpg) center/ cover no-repeat;
+    height: 96vh;
+
+
+}
+
+.btn {
+    box-shadow: 0 14px 100px #00FF00, 0 10px 20px blue;
+    margin-left: 1%;
+    font-size: 5vh;
+
+
+
+}
+
+.output {
+    display: flex;
+    justify-content: center;
+    width: 56%;
+    align-items: center;
+    margin: 8% auto;
+    border-radius: 40px;
+    box-shadow: 0 14px 100px red, 0 10px 20px blue;
+    font-size: 15px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(3px);
+    border-radius: 32px;
+    text-align: center;
+    color: black;
+    animation: Cholpon 2s infinite alternate;
+
+}
+
+@keyframes Cholpon {
+    0% {}
+
+    0% {
+        box-shadow: 0 14px 100px red, 0 10px 20px blue;
+
+    }
+
+    0% {
+        box-shadow: 0 14px 100px rgb(81, 224, 4), 0 10px 20px blue;
+
+    }
+
+    0% {
+        box-shadow: 0 14px 100px rgb(14, 8, 201), 0 10px 20px blue;
+
+    }
+
+    0% {
+        box-shadow: 0 14px 100px rgb(153, 201, 8), 0 10px 20px yellow;
+
+
+    }
+}
+
+.style_inp {
+    width: 30%;
+    font-size: 5vh;
+    box-shadow: 0 14px 100px yellow, 0 10px 20px blue;
+    margin-left: 30%;
+
+}
+
+.style_main,
+.style_speed,
+.style_gust,
+.style_deg,
+.style_temp,
+.style_deg,
+.style_temp2,
+.style_name {
+    transition: 0.4s;
+}
+
+
+.style_name:hover {
+    color: #00FF00;
+    font-size: 50px;
+
+}
+
+.style_temp:hover {
+    color: blue;
+    font-size: 45px;
+
+}
+
+
+.style_temp2:hover {
+    color: red;
+    font-size: 40px;
+
+}
+
+.style_deg:hover {
+    color: aqua;
+    font-size: 35px;
+}
+
+.style_gust:hover {
+    color: white;
+    font-size: 30px;
+
+}
+
+.style_speed:hover {
+    color: blueviolet;
+    font-size: 25px;
+
+}
+
+.style_main:hover {
+    color: yellow;
+    font-size: 20px;
+
+}
